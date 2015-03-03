@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Properites for the web interface</comment>
+        <entry key="SEQUENCE_PATH">/home/tjakobi/scratch/threepd/3PD/3CPrimerDesign/WebContent/WEB-INF/data/organisms/</entry>
+        <entry key="Celegans-SequenceFile">Celegans/Celegans.fa.SlimGenome.ser</entry>
+        <entry key="Ppacificus-SequenceFile">Ppacificus/Ppacificus.fa.SlimGenome.ser</entry>
+        <entry key="Dmelanogaster-SequenceFile">Dmelanogaster/Dmelanogaster.fa.SlimGenome.ser</entry>
+        <entry key="Hsapiens-SequenceFile">Hsapiens/Hsapiens.fa.SlimGenome.ser</entry>
+        <entry key="Mmusculus-SequenceFile">Mmusculus/Mmusculus.fa.SlimGenome.ser</entry>
+        <entry key="Scerevisiae-SequenceFile">Scerevisiae/Scerevisiae.fa.SlimGenome.ser</entry>
+
+        <entry key="MAX_NUM_PICKING_THREADS">4</entry>
+
+        <entry key="BLAT_gfClient">/home/tjakobi/scratch/threepd/3PD/3CPrimerDesign/bin/gfServer</entry>
+        <entry key="BLAT_SequenceDir">WEB-INF/data/twobit/</entry>
+        <entry key="BLAT_host">localhost</entry>
+        <entry key="BLAT_PORT_Celegans">10100</entry>
+        <entry key="BLAT_PORT_Ppacificus">10110</entry>
+        <entry key="BLAT_PORT_Mmusculus">10120</entry>
+        <entry key="BLAT_PORT_Hsapiens">10130</entry>
+        <entry key="BLAT_PORT_Dmelanogaster">10140</entry>
+        <entry key="BLAT_PORT_Scerevisiae">10150</entry>
+
+
+        <entry key="ERROR_REPORT_EMAIL">tjakobi@age.mpg.de</entry>
+        <entry key="THIS_SERVICE_SENDER_EMAIL">threepd@age.mpg.de</entry>
+        <entry key="SMTP_SERVER">mail.age.mpg.de</entry>
+</properties>

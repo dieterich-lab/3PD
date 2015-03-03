@@ -1,0 +1,16 @@
+To create, run and query a remote index, the following steps need to be done:
+
+- start rmiregistry on host - IMPORTANT: CLASSPATH (shell) variable has to contain: the reference to the primerDesign binaries AND the reference to the colt library
+- create appropriate java policy file, e.g. granting all rights:
+	grant {
+  		permission java.security.AllPermission;
+	};
+- create index structure implementing DNASequenceIndex, e.g.: MultiSeqESAFatOpt
+- adapt/ re-use class implementing 'RemoteIndexStructureSearch'
+- register index in rmiregistry, e.g. call registering class:
+  important: a codebase has to be provided which is accessible on the host, as well as on the client system!, e.g.:
+  java -Xmx2048M -Djava.security.policy=/Users/froehler/.java.policy -Djava.rmi.server.codebase="file:///export/Sebastian/PrimerDesign/bin/ file:///export/Sebastian/PrimerDesign/colt.jar" primerDesign.dsc.indexStructures.rmi.IndexRegistration /Users/froehler/test/Ppa/BAC-Ppa50-C09.fa.MultiSeqESAFatOpt.esaidx
+- run query client, e.g.:
+  java -Djava.security.policy=/Users/froehler/.java.policy primerDesign/dsc/indexStructures/rmi/IndexRemoteQueryClient ATG 1
+  
+If used separately, the packages colt.jar, weka.jar and PrimerDesign.jar (containing the above mentioned rmi methods) are required.

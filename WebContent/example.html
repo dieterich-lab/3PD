@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<style>
+h1
+{
+     text-decoration: none;
+     font-weight: bold;
+     color: #006600;
+     margin-left: 0.5em
+}
+
+#bd
+{
+	color:#003300;
+	background-color:#C5E3BF;
+	border:2px;
+   	-moz-border-radius:8px;
+   	-webkit-border-radius:8px;	
+   	border-radius:8px;
+   	border:1px solid green;	
+   	margin-left: 0.5em    	
+}
+
+#hd
+{
+	border: none
+}
+
+legend 
+{
+	border:1px solid green;
+}
+
+#nav 
+{
+	 width: 100%;
+     float: left;
+     margin: 0 0 3em 0;
+     padding: 0;
+     list-style:none;
+     border-bottom: 1px solid green; 
+     border-top: 1px solid green; 
+}
+
+#nav li 
+{
+	 float: right; 
+}
+
+#nav li a 
+{
+     display: block;
+     padding: 8px 15px;
+     text-decoration: none;
+     font-weight: bold;
+     color: #003300;
+     border-right: 1px solid #ccc; 
+}
+
+p
+{
+     text-decoration: none;
+     margin-left: 0.5em
+}
+</style>
+
+<title>Example Primer Design Task</title>
+</head>
+
+<body>
+
+<ul id="nav">
+	<li><script type="text/javascript">
+	/*<![CDATA[*/
+
+	/***********************************************
+	* Encrypt Email script- Please keep notice intact
+	* Tool URL: http://www.dynamicdrive.com/emailriddler/
+	* **********************************************/
+	<!-- Encrypted version of: Adhideb.Ghosh [at] ***.***.** //-->
+
+	var emailriddlerarray=[65,100,104,105,100,101,98,46,71,104,111,115,104,64,97,103,101,46,109,112,103,46,100,101]
+	var encryptedemail_id42='' //variable to contain encrypted email 
+	for (var i=0; i<emailriddlerarray.length; i++)
+ 		encryptedemail_id42+=String.fromCharCode(emailriddlerarray[i])
+
+	document.write('<a href="mailto:'+encryptedemail_id42+'?subject=3C Primer Design Request:">Contact Us</a>')
+
+	/*]]>*/
+	</script></li>
+	<li><a href="faq.html">FAQ</a></li>
+	<li><a href="example.html">Example</a></li>
+	<li><a href="3PD_Home.html">Home</a></li>
+</ul><br/>
+	
+<fieldset id="hd">
+    <a href="http://www.age.mpg.de">
+        <img width="60%" height="25%" border="0" title="Max Planck Society" alt="" src="mpi_logo.png"></img>
+    </a>
+	<h1 align="left">Example: Primer Design Task</h1>
+</fieldset>
+	
+<fieldset id="bd">
+	<p>
+	In the following, we want to perform a targeted search for six primer triplets each consisting of an upstream primer, a downstream primer and a TaqMan probe.<br/>
+	To do this, we use our webinterface in targeted mode using standard parameters. Please note that this mode requires the user to supply more than one fasta sequence to screen for suitable primer pair sets.<br/>
+	The restriction site for this search is EcoRI. The sequence regions to screen are as follows:
+	</p>
+	
+<pre>
+>Site1
+GAGAACGCCATACAATGATAACAACAACAGAAATATTCGCTTCATTTTTAATATTCGCGCTCTATTTTTCGAATATGT
+TTCACGGGTAGTATAGGTACTGAATTCTGGCGTTGTTCAATTGTGTCTTCAAATGGCATTCAATCTCATAGAAAAAAG
+TTTGTTCGCGTTCGTATTCTTTTGGAAATGCGCTGAAGAAATGA
+>Site2
+TTTTCTATTGTACTTTTTCTTCCGAGACATTTCAGAGTGTTCTCACTTTTCTCACTGAACTTTCCCTTCTTTTCCCCA
+CAGAGTACTCCTTACAATTGAGAATTCCTTTTCTTCCCTCTCGTACAAGGTTGACTTCGCTCTTGCAAGGTGTCCCCT
+CTCCCTCCATCACGGTATTATTGTATTTGTATCACATAAAGATA
+>Site3
+TTGTATGTCATTGGTCCCTAATCTTTCATGATCTACTCATCTCATTCTTTCCTCTTTCTCATTCTCCTCAAGAGTGTT
+CAAACGAGTCGAACGAAGAACGAATTCTCACCAAAAACGAGCGCGCTGTGATAATTTTCTCTCATAAATCACGAGGAA
+AAGTTGGAAGAAGTTCGACCTTGGTTTCTCCTCTTTCCTTCTTC
+>Site4
+TTCGAAGAATCAACGATTCATCCTCAAAGTGGTGAAAGAATCAATCATTTATCGATAGTGAAAGCAGTAACTCTTTAG
+AAAACACGCATATGACCGGTCGAATTCACCTGATCAGGTGGAATGAGTTTTCGAGGAATGATTTTGTGTCGCCAGAAC
+TGTTTCGATAATTGGGTCAATATTTTTAGGCCGGCTGAAACTAT
+>Site5
+AATCTGTGAAGAGGAAAGGAGAAGAGGGGAGGGGCAATAATCAATCATAGTTCGTTGCCAACCACTCCCAACACGAAA
+TGAGTGATCGATAGAGGGAGAGAATTCAACAAGTGAGGGGACCAATACACTTTAGTGGTGCAAGATGTGGTTCATGGA
+ATAATTTATCTATAGCTTATCTACTTTATTTGAAGGCTTCACGT
+>Site6
+TAACCATCCATTATTCTTCGCTCTCGATCCGGGAATATAGAGGGATGTCATCGATTTGACGACGATTCCCTCTTCATC
+GTTCTTCATTGCTTCTGCGAAGAATTCCTCCACTTCCGATCTGCAATCGATTTATGACACGTTAACCAGAATACTCCC
+ACCGTACCTACCGTATCCCTCTCCCTCTAATCAATGAAATGCCT
+</pre></fieldset>
+	
+<fieldset id="hd"><p>
+	To actually do the search, you can click on <a href="searchQuery.html">this</a> link and add your e-mail adress where the results will be mailed to.<br/>
+	The resulting primer pair set will look like this:<br/>
+</p></fieldset>
+	
+<fieldset id="bd">
+	<pre>
+The optimal primer pairs for your search are:
+
+      Type	Position  	Sequence                                	length	distRSS	%GC	TM	dOptPair	scoreSA	scoreSEA
+  Forward:	3         	AACGCCATACAATGATAACAA                   	21	97	0.333	57.30	0.464628	16.0	8.0
+    Probe:	98        	AGTACCTATACTACCCGTGAAACATATTCGAAAA      	34	2	0.353	65.19	0.221956	32.0	8.0
+  Reverse:	193       	CTTCAGCGCATTTCCAAA                      	18	93	0.444	57.80	0.424010	16.0	6.0
+dOptPair: 0.20116754755170715
+PAmax: 22 PEA: 10
+
+  Forward:	40        	TCTCACTTTTCTCACTGAACT                   	21	60	0.381	57.90	0.457028	20.0	8.0
+    Probe:	97        	CAATTGTAAGGAGTACTCTGTGGGGAAAAGA         	31	3	0.419	65.89	0.187199	28.0	8.0
+  Reverse:	190       	GTGATACAAATACAATAATACCGTGA              	26	90	0.308	58.58	0.485123	24.0	8.0
+dOptPair: 0.20119012819219473
+PAmax: 28 PEA: 10
+
+  Forward:	0         	TTGTATGTCATTGGTCCCTAA                   	21	100	0.381	57.73	0.481696	20.0	10.0
+    Probe:	95        	CTTCGTTCGACTCGTTTGAACACTCT              	26	5	0.462	65.02	0.211444	36.0	8.0
+  Reverse:	173       	TCGAACTTCTTCCAACTTTTC                   	21	73	0.381	57.75	0.459177	20.0	8.0
+dOptPair: 0.20118567850438293
+PAmax: 26 PEA: 8
+
+  Forward:	26        	AAGTGGTGAAAGAATCAATCAT                  	22	74	0.318	57.29	0.493066	28.0	8.0
+    Probe:	95        	CGGTCATATGCGTGTTTTCTAAAGAGTTACTG        	32	5	0.406	65.73	0.211096	32.0	10.0
+  Reverse:	174       	TGACCCAATTATCGAAACAG                    	20	74	0.400	56.85	0.479913	28.0	8.0
+dOptPair: 0.2011539274663248
+PAmax: 28 PEA: 10
+
+  Forward:	25        	GGGGAGGGGCAATAATC                       	17	75	0.588	57.78	0.440189	20.0	6.0
+    Probe:	92        	TCTATCGATCACTCATTTCGTGTTGGGAG           	29	8	0.448	65.90	0.208719	36.0	10.0
+  Reverse:	197       	GTGAAGCCTTCAAATAAAGTAGATAA              	26	97	0.308	58.68	0.468921	28.0	6.0
+dOptPair: 0.20118234717784905
+PAmax: 24 PEA: 10
+
+  Forward:	30        	GGGAATATAGAGGGATGTCAT                   	21	70	0.429	57.15	0.475709	16.0	10.0
+    Probe:	88        	CAATGAAGAACGATGAAGAGGGAATCGTC           	29	12	0.448	65.45	0.207019	28.0	12.0
+  Reverse:	172       	GATACGGTAGGTACGGTG                      	18	72	0.556	57.41	0.496022	28.0	10.0
+dOptPair: 0.2010664525706228
+PAmax: 28 PEA: 10
+
+avgdOptPrimerPAir: 0.20115768024384692
+Homogenity score: 4.2581617793587376E-5
+worst primer -  primer PA/PEA score (incl probes): 30 10
+
+
+The following parameters were used during your search:
+------------------------------------------------------
+
+Target organism: Ppacificus
+Number of primer pairs: 6
+Restriction enzyme: EcoRI
+
+Primer Properties:
+Min primer length: 16 Opt primer length: 20 Max primer length: 30
+Min primer TM: 55.0 Opt primer TM: 60.0 Max primer TM: 63.0
+Min primer GC: 0.3 Opt primer GC: 0.5 Max primer GC: 0.7
+Max primer TM difference: 1.0
+Max primer self alignment: 30 Max primer self end alignment: 10
+Max primer pair alignment: 30 Max primer pair end alignment: 10
+
+Probe Properties:
+Min probe length: 18 Opt probeLength: 25 Max probe length: 35
+Min probe TM: 65.0 Opt probe TM: 70.0 Max probe TM: 75.0
+Min probe GC: 0.3 Opt probe GC: 0.5 Max probe GC: 0.7
+Max probe TM difference: 5.0
+Max probe self alignment: 36 Max probe self end alignment: 36
+Max probe pair alignment: 36 Max probe pair end alignment: 36
+
+Amplicon Properties:
+Min amplicon length: 140 Opt amplicon length: 150 Max amplicon length: 200
+Safe FP amplicon length: 500
+
+Weights:
+delta TM weight: 1.0
+delta GC weight: 0.5
+delta Length weight: 0.5
+delta Distance to RSS weight: 1.0
+Self alignment weight: 0.5
+Self end alignment weight: 1.0
+Pair alignment weight: 0.5
+Pair end alignment weight: 1.0
+False positive weight: 1.0
+</pre></fieldset>
+	
+<fieldset id="hd"><p>
+	Please note that because six individual sequence regions were submitted, each primer position is relative to the respective sequence region only. This is because the sequence regions supplied to the primer design software do not necessarily have to be from the same contig/ chromosome.
+</p></fieldset>
+
+<fieldset id="hd">
+<p>
+    <b>Reference:</b>
+    Sebastian Fr&ouml;hler and Christoph Dieterich: <i>3PD: Rapid design of optimal primers for chromosome conformation capture assays.</i> <a href="http://www.biomedcentral.com/1471-2164/10/635" target="_blank">BMC Genomics 2009, 10:635</a>
+</p>
+
+<p>&copy; Christoph Dieterich, Max Planck Institute for Biology of Ageing (2014)</p>
+
+<p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+        src="http://www.w3.org/Icons/valid-xhtml10-blue"
+        alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+</p>
+</fieldset>
+
+</body>
+</html>
